@@ -53,6 +53,27 @@ namespace TodooApp.Controllers
             return View();
         }
 
+
+        [HttpGet]
+        public IActionResult Create()
+
+        {
+            return View();
+        }
+
+        [HttpPost]
+
+        public IActionResult Create(Todo todo)
+        {
+            // For now, just return a message.
+            // Later, you’ll add it to a list or database.
+
+            return Content($"you submitted :{todo.Title} ,IsDone: {todo.IsDone}");
+        }
+
+
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

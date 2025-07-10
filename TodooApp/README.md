@@ -47,3 +47,10 @@ So, in simple words:
 - ✅ **Controller:** creates real Todos with data.  
 - ✅ **Controller:** sends that data to the View.
 
+## ✅✅✅ Step 4: Add Create Todo
+
+---
+
+📌 **1️⃣ Add a Create action in your `HomeController`**
+
+Open your `HomeController.cs` and add this under the **Index** and **Privacy** actions:
