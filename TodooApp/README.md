@@ -63,3 +63,15 @@ Open your `HomeController.cs` and add this under the **Index** and **Privacy** a
 ➡️ **Right-click** `Views/Home` → **Add** → **New Item** → **Razor View** → name it `Create.cshtml`
 
 📌 **Put this in `Create.cshtml`:**
+
+## 🔗 The `<p>` Link in `Index.cshtml`
+
+---
+
+Your code:
+
+```html
+<p>
+    <a asp-action="Create">Add New Todo</a>
+</p>
+
