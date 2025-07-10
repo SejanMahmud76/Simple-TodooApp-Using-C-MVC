@@ -54,3 +54,12 @@ So, in simple words:
 📌 **1️⃣ Add a Create action in your `HomeController`**
 
 Open your `HomeController.cs` and add this under the **Index** and **Privacy** actions:
+
+
+## 📝 Prepare the View for the Create Action
+
+---
+
+➡️ **Right-click** `Views/Home` → **Add** → **New Item** → **Razor View** → name it `Create.cshtml`
+
+📌 **Put this in `Create.cshtml`:**
